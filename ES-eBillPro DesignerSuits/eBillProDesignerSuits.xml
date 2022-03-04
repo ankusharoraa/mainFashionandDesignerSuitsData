@@ -1,0 +1,1064 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+eBillProDesignerSuits
+</name>
+</assembly>
+<members>
+<member name="T:eBillProDesignerSuits.dsAmountReceiveFromCustomer.tblCustomerAmountReceiveDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAmountReceiveFromCustomer.tblCustomerAmountReceiveRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAmountReceiveFromCustomer.tblCustomerAmountReceiveRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAmountReceiveFromCustomer">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAmountReceiveFromCustomerTableAdapters.tblCustomerAmountReceiveTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsAmountReceiveFromCustomerTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsAmountReceiveFromCustomer,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsAmountReceiveFromCustomerTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsAmountReceiveFromCustomer,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsAmountReceiveFromCustomerTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsAmountReceiveFromCustomer,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsAmountReceiveFromCustomerTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsAmountReceiveFromCustomerTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsAmountReceiveFromCustomer)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAmountReceiveFromCustomerTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAmountReceiveFromCustomerTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAmountReceiveFromCustomerTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTInvoice.tblInvoiceMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTInvoice.tblInvoiceMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTInvoice.tblInvoiceMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTInvoice">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTInvoiceTableAdapters.tblInvoiceMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTInvoiceTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsGSTInvoice,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTInvoiceTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsGSTInvoice,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTInvoiceTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsGSTInvoice,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTInvoiceTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTInvoiceTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsGSTInvoice)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTInvoiceTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTInvoiceTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTInvoiceTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoice.tblSaleReturnInvoiceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoice.tblSaleReturnInvoiceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoice.tblSaleReturnInvoiceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoice">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceTableAdapters.tblSaleReturnInvoiceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSaleReturnInvoiceTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsSaleReturnInvoice,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSaleReturnInvoiceTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsSaleReturnInvoice,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSaleReturnInvoiceTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsSaleReturnInvoice,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSaleReturnInvoiceTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSaleReturnInvoiceTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsSaleReturnInvoice)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceReport.tblSaleReturnInvoiceReportDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceReport.tblSaleReturnInvoiceReportRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceReport.tblSaleReturnInvoiceReportRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceReport">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceReportTableAdapters.tblSaleReturnInvoiceReportTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSaleReturnInvoiceReportTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsSaleReturnInvoiceReport,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSaleReturnInvoiceReportTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsSaleReturnInvoiceReport,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSaleReturnInvoiceReportTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsSaleReturnInvoiceReport,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSaleReturnInvoiceReportTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSaleReturnInvoiceReportTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsSaleReturnInvoiceReport)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceReportTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceReportTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSaleReturnInvoiceReportTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTPurchase.tblGSTPurchaseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTPurchase.tblGSTPurchaseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTPurchase.tblGSTPurchaseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTPurchase">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTPurchaseTableAdapters.tblGSTPurchaseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTPurchaseTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsGSTPurchase,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTPurchaseTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsGSTPurchase,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTPurchaseTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsGSTPurchase,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTPurchaseTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTPurchaseTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsGSTPurchase)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTPurchaseTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTPurchaseTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTPurchaseTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerMaster.CustomerMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerMaster.CustomerMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerMaster.CustomerMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerMaster">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerMasterTableAdapters.CustomerMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCustomerMasterTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsCustomerMaster,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCustomerMasterTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsCustomerMaster,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCustomerMasterTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsCustomerMaster,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCustomerMasterTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCustomerMasterTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsCustomerMaster)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerMasterTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerMasterTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerMasterTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAdvances.tblEmployeeMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAdvances.tblEmployeeMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAdvances.tblEmployeeMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAdvances">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAdvancesTableAdapters.tblEmployeeMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsAdvancesTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsAdvances,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsAdvancesTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsAdvances,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsAdvancesTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsAdvances,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsAdvancesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsAdvancesTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsAdvances)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAdvancesTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAdvancesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsAdvancesTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsExpense.tblExpensesDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsExpense.tblExpensesRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsExpense.tblExpensesRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsExpense">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsExpenseTableAdapters.tblExpensesTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsExpenseTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsExpense,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsExpenseTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsExpense,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsExpenseTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsExpense,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsExpenseTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsExpenseTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsExpense)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsExpenseTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsExpenseTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsExpenseTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSalary.tblEmployeeSalaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSalary.tblEmployeeSalaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSalary.tblEmployeeSalaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSalary">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSalaryTableAdapters.tblEmployeeSalaryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSalaryTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsSalary,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSalaryTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsSalary,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSalaryTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsSalary,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSalaryTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSalaryTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsSalary)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSalaryTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSalaryTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSalaryTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeIssue.tblChequeIssueDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeIssue.tblChequeIssueRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeIssue.tblChequeIssueRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeIssue">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeIssueTableAdapters.tblChequeIssueTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsChequeIssueTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsChequeIssue,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsChequeIssueTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsChequeIssue,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsChequeIssueTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsChequeIssue,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsChequeIssueTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsChequeIssueTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsChequeIssue)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeIssueTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeIssueTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeIssueTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerAmountReceive.CustomerAmountReceiveDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerAmountReceive.CustomerAmountReceiveRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerAmountReceive.CustomerAmountReceiveRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerAmountReceive">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerAmountReceiveTableAdapters.CustomerAmountReceiveTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCustomerAmountReceiveTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsCustomerAmountReceive,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCustomerAmountReceiveTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsCustomerAmountReceive,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCustomerAmountReceiveTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsCustomerAmountReceive,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCustomerAmountReceiveTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCustomerAmountReceiveTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsCustomerAmountReceive)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerAmountReceiveTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerAmountReceiveTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCustomerAmountReceiveTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCashWithdraw.tblCashWithdrawDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCashWithdraw.tblCashWithdrawRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCashWithdraw.tblCashWithdrawRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCashWithdraw">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCashWithdrawTableAdapters.tblCashWithdrawTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCashWithdrawTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsCashWithdraw,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCashWithdrawTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsCashWithdraw,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCashWithdrawTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsCashWithdraw,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCashWithdrawTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsCashWithdrawTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsCashWithdraw)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCashWithdrawTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCashWithdrawTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsCashWithdrawTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeDeposit.tblChequeDepositDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeDeposit.tblChequeDepositRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeDeposit.tblChequeDepositRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeDeposit">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeDepositTableAdapters.tblChequeDepositTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsChequeDepositTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsChequeDeposit,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsChequeDepositTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsChequeDeposit,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsChequeDepositTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsChequeDeposit,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsChequeDepositTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsChequeDepositTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsChequeDeposit)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeDepositTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeDepositTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsChequeDepositTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSupplierPayment.SupplierPaymentDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSupplierPayment.SupplierPaymentRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSupplierPayment.SupplierPaymentRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSupplierPayment">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSupplierPaymentTableAdapters.SupplierPaymentTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSupplierPaymentTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsSupplierPayment,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSupplierPaymentTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsSupplierPayment,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSupplierPaymentTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsSupplierPayment,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSupplierPaymentTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsSupplierPaymentTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsSupplierPayment)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSupplierPaymentTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSupplierPaymentTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsSupplierPaymentTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="P:eBillProDesignerSuits.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:eBillProDesignerSuits.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReport.tblInvoiceMasterDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReport.tblInvoiceMasterRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReport.tblInvoiceMasterRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReport">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportTableAdapters.tblInvoiceMasterTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTSaleReportTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsGSTSaleReport,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTSaleReportTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsGSTSaleReport,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTSaleReportTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsGSTSaleReport,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTSaleReportTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTSaleReportTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsGSTSaleReport)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeSalary.EmployeeSalaryDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeSalary.EmployeeSalaryRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeSalary.EmployeeSalaryRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeSalary">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeSalaryTableAdapters.EmployeeSalaryTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsEmployeeSalaryTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsEmployeeSalary,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsEmployeeSalaryTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsEmployeeSalary,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsEmployeeSalaryTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsEmployeeSalary,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsEmployeeSalaryTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsEmployeeSalaryTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsEmployeeSalary)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeSalaryTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeSalaryTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeSalaryTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncome.tblIncomeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncome.tblIncomeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncome.tblIncomeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncome">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeTableAdapters.tblIncomeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsIncomeTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsIncome,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsIncomeTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsIncome,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsIncomeTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsIncome,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsIncomeTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsIncomeTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsIncome)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportEmployeeWise.GSTSaleReportEmployeeWiseDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportEmployeeWise.GSTSaleReportEmployeeWiseRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportEmployeeWise.GSTSaleReportEmployeeWiseRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportEmployeeWise">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportEmployeeWiseTableAdapters.GSTSaleReportEmployeeWiseTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTSaleReportEmployeeWiseTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsGSTSaleReportEmployeeWise,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTSaleReportEmployeeWiseTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsGSTSaleReportEmployeeWise,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTSaleReportEmployeeWiseTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsGSTSaleReportEmployeeWise,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTSaleReportEmployeeWiseTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsGSTSaleReportEmployeeWiseTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsGSTSaleReportEmployeeWise)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportEmployeeWiseTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportEmployeeWiseTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsGSTSaleReportEmployeeWiseTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeAdvance.EmployeeAdvanceDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeAdvance.EmployeeAdvanceRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeAdvance.EmployeeAdvanceRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeAdvance">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeAdvanceTableAdapters.EmployeeAdvanceTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsEmployeeAdvanceTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsEmployeeAdvance,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsEmployeeAdvanceTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsEmployeeAdvance,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsEmployeeAdvanceTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsEmployeeAdvance,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsEmployeeAdvanceTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsEmployeeAdvanceTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsEmployeeAdvance)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeAdvanceTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeAdvanceTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsEmployeeAdvanceTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeDayBook.IncomeDataTable">
+	<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeDayBook.IncomeRow">
+	<summary>
+Represents strongly named DataRow class.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeDayBook.IncomeRowChangeEvent">
+	<summary>
+Row event argument class
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeDayBook">
+	<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeDayBookTableAdapters.IncomeTableAdapter">
+	<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsIncomeDayBookTableAdapters.TableAdapterManager.UpdateUpdatedRows(eBillProDesignerSuits.dsIncomeDayBook,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Update rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsIncomeDayBookTableAdapters.TableAdapterManager.UpdateInsertedRows(eBillProDesignerSuits.dsIncomeDayBook,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Insert rows in top-down order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsIncomeDayBookTableAdapters.TableAdapterManager.UpdateDeletedRows(eBillProDesignerSuits.dsIncomeDayBook,System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Delete rows in bottom-up order.
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsIncomeDayBookTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+	<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member><member name="M:eBillProDesignerSuits.dsIncomeDayBookTableAdapters.TableAdapterManager.UpdateAll(eBillProDesignerSuits.dsIncomeDayBook)">
+	<summary>
+Update all changes to the dataset.
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeDayBookTableAdapters.TableAdapterManager.UpdateOrderOption">
+	<summary>
+Update Order Option
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeDayBookTableAdapters.TableAdapterManager.SelfReferenceComparer">
+	<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member><member name="T:eBillProDesignerSuits.dsIncomeDayBookTableAdapters.TableAdapterManager">
+	<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+</members>
+</doc>
